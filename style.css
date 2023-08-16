@@ -5,6 +5,16 @@
 .row {
     display: flex;
 }
+.row-column {
+    flex-direction:column;
+    justify-content: space-around;
+}
+.banner {
+    padding: 10px;
+}
+.main-title {
+    text-align: center;
+}
 
 .row-menu {
     justify-content: space-between;
