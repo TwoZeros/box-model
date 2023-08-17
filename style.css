@@ -12,6 +12,10 @@
 }
 .banner {
     padding: 10px;
+
+}
+div {
+    padding: 10px;
 }
 .main-title {
     text-align: center;
@@ -37,8 +41,8 @@
 .link-beautiful {
     text-decoration: underline;
     text-decoration-style:wavy;
-     text-decoration-color:red;
-     text-shadow:1px 1px 2px black;
+    text-decoration-color:red;
+    text-shadow:1px 1px 2px black;
      font-weight: lighter;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-size: 25px;
@@ -118,4 +122,12 @@ body {
     transform: rotateX(0deg);
     visibility: visible;
     opacity: 1;
+  }
+  #footer{
+    background: red;
+  }
+
+  li:last-child() {
+    font-weight: bold;
+    background-color: bisque;
   }
