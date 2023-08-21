@@ -168,5 +168,26 @@ body {
     top:5px;
     left: 100px;
     height: 50px;
-
   }
+.ul2 {
+list-style: none;
+counter-reset: number;
+}
+.ul2 li::before {
+    content: counter(number) ')';
+    counter-increment: number;
+}
+
+.season ul li { font-style: italic; 
+color: brown;}
+
+#winter {
+  color:blue;
+}
+
+#spring {
+  color:aquamarine;
+}
+p {
+  background-color: aquamarine;
+}
